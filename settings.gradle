@@ -1,0 +1,4 @@
+include ':drawer'
+include ':safe_args'
+include ':app'
+rootProject.name = "Navigation Component"
