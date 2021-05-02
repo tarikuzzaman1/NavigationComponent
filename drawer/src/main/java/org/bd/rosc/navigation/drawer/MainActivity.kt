@@ -25,10 +25,10 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
 
     navController = findNavController(R.id.fragment)
+    findViewById<NavigationView>(R.id.navigationView).setupWithNavController(navController)
+
     drawerLayout = findViewById(R.id.drawer_layout)
     appBarConfiguration = AppBarConfiguration(navController.graph, drawerLayout)
-
-    findViewById<NavigationView>(R.id.navigationView).setupWithNavController(navController)
     setupActionBarWithNavController(navController, appBarConfiguration)
 
     listener = NavController.OnDestinationChangedListener { controller, destination, arguments ->
