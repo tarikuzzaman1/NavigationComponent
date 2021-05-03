@@ -1,4 +1,4 @@
-package org.bd.rosc.navigation
+package org.bd.rosc.navigation.viewpager_onboarding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,5 +7,7 @@ class MainActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
+
+    supportActionBar?.hide()
   }
 }
