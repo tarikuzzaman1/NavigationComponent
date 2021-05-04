@@ -1,3 +1,4 @@
+include ':modal_bottom_sheet'
 include ':transition_animations'
 include ':viewpager_onboarding'
 include ':bottom_navigation'

@@ -11,7 +11,8 @@ import androidx.navigation.fragment.navArgs
 
 class SecondFragment : Fragment() {
 
-  val args: SecondFragmentArgs by navArgs()
+  //val args: SecondFragmentArgs by navArgs()
+  val args: SecondFragmentArgs by navArgs<SecondFragmentArgs>()
 
   override fun onCreateView(
     inflater: LayoutInflater, container: ViewGroup?,
@@ -20,7 +21,9 @@ class SecondFragment : Fragment() {
     // Inflate the layout for this fragment
     val view = inflater.inflate(R.layout.fragment_second, container, false)
     val myNumber = args.number
-    view.findViewById<TextView>(R.id.textView2).text = myNumber.toString()
+    val user = args.currentUser
+    view.findViewById<TextView>(R.id.textView2).text =
+      "Number:$myNumber \n FirstName: ${user.firstName} \n LastName: ${user.lastName}"
     view.findViewById<TextView>(R.id.textView2).setOnClickListener {
       Navigation.findNavController(view).navigate(R.id.navigateToFirstFragment)
     }
