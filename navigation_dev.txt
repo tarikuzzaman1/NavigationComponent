@@ -1,0 +1,21 @@
+https://developer.android.com/guide/navigation/navigation-getting-started
+
+Medium:
+https://medium.com/androiddevelopers/
+https://medium.com/androiddevelopers/navigationui-d21fd4f5c318
+
+https://github.com/google-developer-training/android-demos/tree/main/DonutTracker/NavigationUI
+
+Modern Android Development(MAD) Skills:
+https://www.youtube.com/playlist?list=PLWz5rJ2EKKc91i2QT8qfrfKgLNlJiG1z7
+https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-vin7SvgoaR6wu24sAw-sE
+
+
+
+Previous Navigation Series: MAD Skills(APIs) => https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9VpBMZUS9geQtc5RJ2RsUd
+How to use the navigation component - Navigation: Overview
+How to navigate to dialogue destinations - Navigation: Dialog destinations
+How to use safe args for passing arguments - Navigation: SafeArgs
+How to navigate with deep links - Navigation: Deep links
+
+
