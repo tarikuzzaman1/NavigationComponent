@@ -19,3 +19,24 @@ How to use safe args for passing arguments - Navigation: SafeArgs
 How to navigate with deep links - Navigation: Deep links
 
 goo.gle/donut-tracker
+https://github.com/google-developer-training/android-demos/tree/main/DonutTracker/NavigationUI
+
+
+Material Design Components MDC https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8SmtMNw34wvYkqj45rV1d3
+  https://github.com/material-components/material-components-android-examples
+
+  https://material.io/design/material-theming/overview.html#material-theming
+
+
+  https://github.com/material-components/material-components-android
+
+
+
+
+https://github.com/android/architecture-components-samples
+https://github.com/android/architecture-components-samples/tree/main/MADSkillsNavigationSample
+https://github.com/android/architecture-components-samples/tree/main/NavigationBasicSample
+
+
+MAD Skills:
+  Kotlin => goo.gle/building-ktx-library
