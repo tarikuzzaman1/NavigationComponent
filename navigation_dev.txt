@@ -40,3 +40,9 @@ https://github.com/android/architecture-components-samples/tree/main/NavigationB
 
 MAD Skills:
   Kotlin => goo.gle/building-ktx-library
+
+Android Tool Time:
+  https://www.youtube.com/playlist?list=PLWz5rJ2EKKc_w6fodMGrA1_tsI3pqPbqa
+
+Android and Kotlin:
+    https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8ibQFkC77xUETd8BCkRbYc
